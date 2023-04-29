@@ -1,6 +1,6 @@
 {
   "name": "nexrender-action-upload-strapi",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "An action module for nexrender , it can upload medias to strapi (CMS)",
   "main": "index.js",
   "keywords": [
@@ -17,5 +17,8 @@
     "url": "https://github.com/batusan/nexrender-action-upload-strapi.git"
   },
   "author": "Batuhan San batuhansann@gmail.com",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
 }
